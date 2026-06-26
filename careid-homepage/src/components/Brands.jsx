@@ -7,31 +7,31 @@ export default function Brands() {
   const brandLogos = [
     { 
       name: "Fatz",
-      image: "${import.meta.env.BASE_URL}/images/brands/fatz.png"
+      image: `${import.meta.env.BASE_URL}images/brands/fatz.png`
     },
     {
       name:"Medela",
-      image:"${import.meta.env.BASE_URL}/images/brands/medela.png"
+      image:`${import.meta.env.BASE_URL}images/brands/medela.png`
     },
     {
       name:"Beurer",
-      image:"${import.meta.env.BASE_URL}/images/brands/beurer.png"
+      image:`${import.meta.env.BASE_URL}images/brands/beurer.png`
     },
     {
       name:"Spectra",
-      image:"${import.meta.env.BASE_URL}/images/brands/spectra.png"
+      image:`${import.meta.env.BASE_URL}images/brands/spectra.png`
     },
     {
       name:"Panasonic",
-      image:"${import.meta.env.BASE_URL}/images/brands/panasonic.png"
+      image:`${import.meta.env.BASE_URL}images/brands/panasonic.png`
     },
     {
       name:"Imani",
-      image:"${import.meta.env.BASE_URL}/images/brands/imani.png"
+      image:`${import.meta.env.BASE_URL}images/brands/imani.png`
     },
     {
       name:"Momcozy",
-      image:"${import.meta.env.BASE_URL}/images/brands/momcozy.png"
+      image:`${import.meta.env.BASE_URL}images/brands/momcozy.png`
     }
   ];
 
@@ -112,39 +112,39 @@ return (
     brandLogos.map((brand)=> (
 
     <div
-    key={brand.name}
-    className="
-    w-20
-    h-12
-    flex
-    items-center
-    justify-center
-    rounded-lg
-    hover:bg-white
-    transition
-    "
-    >
+      key={brand.name}
+      className="
+      w-full
+      aspect-square
+      max-w-[100px]
+      flex
+      items-center
+      justify-center
+      rounded-lg
+      hover:bg-white
+      transition
+      "
+      >
 
 
-    <img
+      <img
 
-    src={brand.image}
+      src={brand.image}
 
-    alt={brand.name}
+      alt={brand.name}
 
-    className="
-    max-w-[90px]
-    max-h-[90px]
-    object-contain
-    hover:grayscale-0
-    hover:opacity-100
-    transition
-    "
+      className="
+      w-full
+      h-full
+      object-contain
+      hover:scale-105
+      transition-transform
+      duration-300
+      "
 
-    />
+      />
 
-
-    </div>
+      </div>
 
     ))
 
