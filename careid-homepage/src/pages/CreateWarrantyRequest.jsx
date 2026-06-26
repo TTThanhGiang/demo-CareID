@@ -82,7 +82,7 @@ export default function CreateWarrantyRequest() {
 
   return (
     <div className="min-h-screen bg-[#f4f7fc] py-8">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         
         {/* TIÊU ĐỀ CHÍNH */}
         <div className="mb-6 text-center md:text-left">
