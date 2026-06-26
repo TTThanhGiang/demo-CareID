@@ -7,31 +7,31 @@ export default function Brands() {
   const brandLogos = [
     { 
       name: "Fatz",
-      image: "/images/brands/fatz.png"
+      image: "${import.meta.env.BASE_URL}/images/brands/fatz.png"
     },
     {
       name:"Medela",
-      image:"/images/brands/medela.png"
+      image:"${import.meta.env.BASE_URL}/images/brands/medela.png"
     },
     {
       name:"Beurer",
-      image:"/images/brands/beurer.png"
+      image:"${import.meta.env.BASE_URL}/images/brands/beurer.png"
     },
     {
       name:"Spectra",
-      image:"/images/brands/spectra.png"
+      image:"${import.meta.env.BASE_URL}/images/brands/spectra.png"
     },
     {
       name:"Panasonic",
-      image:"/images/brands/panasonic.png"
+      image:"${import.meta.env.BASE_URL}/images/brands/panasonic.png"
     },
     {
       name:"Imani",
-      image:"/images/brands/imani.png"
+      image:"${import.meta.env.BASE_URL}/images/brands/imani.png"
     },
     {
       name:"Momcozy",
-      image:"/images/brands/momcozy.png"
+      image:"${import.meta.env.BASE_URL}/images/brands/momcozy.png"
     }
   ];
 
